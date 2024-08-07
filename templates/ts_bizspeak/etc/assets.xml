@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+	<scripts>
+		<file>js/script.js</file>	
+		<file>js/jquery.counterup.min.js</file>	
+		<file>js/waypoints.min.js</file>	
+		<file>js/owl.carousel.js</file>
+
+	</scripts>
+	
+	<stylesheets>
+		<file>fonts/font-awesome/css/font-awesome.min.css</file>
+		<file>css/owl.carousel.css</file>
+		<file>fonts/icomoon/icomoon.css</file>
+
+		<file>http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300</file>
+		
+		<file>http://fonts.googleapis.com/css?family=Roboto:400,300,500,700</file>
+
+	</stylesheets>
+	
+</assets>

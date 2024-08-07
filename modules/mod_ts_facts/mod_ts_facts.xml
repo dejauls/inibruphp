@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+  <name>Ts Facts</name>
+  <author>Tripples</author>
+  <creationDate>Jan 2013</creationDate>
+  <copyright>Copyright (C) 2013 - 2015 Themewinter.com. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL or Later</license>
+  <authorEmail>tripplesworld@gmail.com</authorEmail>
+  <authorUrl>www.themewinter.com</authorUrl>
+  <version>1.0</version>
+  <description>TS Facts</description>
+  <files>
+    <filename module="mod_ts_facts">mod_ts_facts.php</filename>
+    <folder>tmpl/</folder>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+
+         <!--Facts 1-->
+         <field name="facts1_spacer" type="spacer" label="Facts 1" />
+         <field name="icon1" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num1" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title1" type="text" label="Title" description="Facts Title" />
+         <field name="facts1_hr" type="spacer" hr="true" />
+
+         <!--Facts 2-->
+         <field name="facts2_spacer" type="spacer" label="Facts 2" />
+         <field name="icon2" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num2" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title2" type="text" label="Title" description="Facts Title" />
+         <field name="facts2_hr" type="spacer" hr="true" />
+
+          <!--Facts 3-->
+         <field name="facts3_spacer" type="spacer" label="Facts 3" />
+         <field name="icon3" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num3" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title3" type="text" label="Title" description="Facts Title" />
+         <field name="facts3_hr" type="spacer" hr="true" />
+
+
+          <!--Facts 4-->
+         <field name="facts4_spacer" type="spacer" label="Facts 4" />
+         <field name="icon4" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num4" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title4" type="text" label="Title" description="Facts Title" />
+         <field name="facts4_hr" type="spacer" hr="true" />
+
+         <!--Facts 5-->
+         <field name="facts5_spacer" type="spacer" label="Facts 5" />
+         <field name="icon5" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num5" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title5" type="text" label="Title" description="Facts Title" />
+         <field name="facts5_hr" type="spacer" hr="true" />
+
+          <!--Facts 6-->
+         <field name="facts6_spacer" type="spacer" label="Facts 6" />
+         <field name="icon6" type="icon" label="Icon Name" filter="raw" description="Facts Icon" />
+         <field name="num6" type="text" label="Facts Number" filter="raw" description="Facts Number" />
+         <field name="title6" type="text" label="Title" description="Facts Title" />
+         <field name="facts6_hr" type="spacer" hr="true" />
+
+      </fieldset>
+
+      <fieldset name="advanced">
+         <field 
+            name="layout" 
+            type="modulelayout" 
+            label="JFIELD_ALT_LAYOUT_LABEL" 
+            description="JFIELD_ALT_MODULE_LAYOUT_DESC" /> 
+        <field 
+            name="moduleclass_sfx" 
+            type="text" 
+            label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" 
+            description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+        <field name="module_cache" 
+            type="list" 
+            default="1" 
+            label="COM_MODULES_FIELD_CACHING_LABEL" 
+            description="COM_MODULES_FIELD_CACHING_DESC">
+            <option value="1">JGLOBAL_USE_GLOBAL</option>
+            <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+        </field>
+        <field 
+            name="cache" 
+            type="hidden" 
+            default="1" />
+        <field name="cache_time" 
+            type="text" 
+            default="900" 
+            label="COM_MODULES_FIELD_CACHE_TIME_LABEL" 
+            description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+        <field 
+         name="cachemode" 
+         type="hidden" 
+         default="itemid">
+         <option value="itemid"></option>
+       </field>
+     </fieldset>
+   </fields>
+ </config>
+</extension>

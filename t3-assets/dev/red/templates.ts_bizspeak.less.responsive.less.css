@@ -1,0 +1,260 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .slider2 .layout-slideshow .sprocket-features-content {
+    bottom: 20%;
+    width: 55%;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content h2.slider-title {
+    font-size: 24px;
+  }
+  .who-we-box {
+    height: 150px;
+    width: 150px;
+    margin: 0 5px;
+  }
+  .who-we-box .box-title {
+    font-size: 16px;
+  }
+  .ts-content-padding.left h2 {
+    font-size: 20px;
+  }
+  .ts-content-padding.left h3 {
+    font-size: 30px;
+  }
+  .ts-content-padding.left .case-desc {
+    margin-top: 15px;
+  }
+  .t3-footer h4 {
+    font-size: 14px;
+  }
+  #back-to-top.affix {
+    bottom: 10px;
+    right: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    text-align: center;
+  }
+  .logo a {
+    margin-top: 10px;
+  }
+  ul.top-info {
+    margin: 0;
+  }
+  .navbar {
+    min-height: 60px;
+  }
+  .head-search .form-control {
+    height: 60px;
+    line-height: 60px;
+  }
+  .head-search .search .fa-search {
+    top: 23px;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content {
+    bottom: 15%;
+    width: 70%;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content h2.slider-title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .ts-action h2 {
+    float: none;
+  }
+  .ts-action .action-btn {
+    float: none;
+    margin-top: 10px;
+  }
+  .who-we-box {
+    height: 150px;
+    width: 150px;
+    margin: 0 5px;
+  }
+  .who-we-box .box-title {
+    font-size: 16px;
+  }
+  .service-img-block .ts-service-wrapper {
+    margin-bottom: 20px;
+  }
+  .ts-facts-icon {
+    margin-left: 25%;
+  }
+  .projects.module .sprocket-mosaic .sprocket-mosaic-header .sprocket-mosaic-filter li {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .t3-copyright .pull-right {
+    float: left !important;
+  }
+  #back-to-top.affix {
+    bottom: 30px;
+    right: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ts-padding .t3-module {
+    margin-bottom: 30px;
+  }
+  .t3-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo a {
+    margin: 0 0 25px;
+  }
+  ul.top-info {
+    float: none;
+  }
+  ul.top-info li {
+    padding-left: 40px;
+  }
+  .head-search {
+    right: 0;
+  }
+  .head-search .form-control {
+    height: 60px;
+    line-height: 60px;
+  }
+  .head-search .search .fa-search {
+    top: 24px;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content {
+    bottom: 20%;
+    width: 80%;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content h2.slider-title {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .slider2 .layout-slideshow .sprocket-features-desc p {
+    display: none;
+  }
+  .slider2 .layout-slideshow .sprocket-features-desc .btn-primary {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .service-img-block .ts-service-wrapper {
+    margin-bottom: 20px;
+  }
+  .ts-action h2 {
+    float: none;
+  }
+  .ts-action .action-btn {
+    float: none;
+    margin-top: 10px;
+  }
+  .ts-features {
+    top: 0;
+  }
+  .who-we-box {
+    width: 120px;
+    height: 120px;
+    margin: 0 20px 20px;
+  }
+  .who-we-box .box-title {
+    font-size: 13px;
+  }
+  .ts-facts-icon {
+    margin-left: 20%;
+  }
+  .title-border .module-title {
+    font-size: 20px;
+  }
+  .title-border .module-title:before {
+    top: 35px;
+  }
+  .ts-content-padding.left {
+    padding-left: 50px;
+  }
+  .clients.module .sprocket-strips-s .sprocket-strips-s-block .sprocket-strips-s-item {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .clients.module .sprocket-strips-s .sprocket-strips-s-block .sprocket-strips-s-item img {
+    display: inline-block;
+    text-align: center;
+  }
+  .ts-action2 h2 {
+    font-size: 28px;
+  }
+  .news-strips .sprocket-strips-container li {
+    margin-bottom: 25px;
+  }
+  .footer-logo.module {
+    margin-top: 0;
+  }
+  .t3-copyright {
+    text-align: center;
+  }
+  .t3-copyright .pull-right {
+    float: none !important;
+  }
+  .t3-copyright .footer-menu {
+    text-align: center;
+  }
+  #back-to-top {
+    right: 5px;
+  }
+  .team-carousel .item {
+    text-align: center;
+  }
+  .team-carousel .item .team-img-wrapper img {
+    display: inline-block;
+    text-align: center;
+  }
+  .team-carousel .team-content .team-social-icons a {
+    float: none;
+    text-align: center;
+  }
+  .team-carousel .owl-controls {
+    top: -58px;
+  }
+  .service-items .service-item-img {
+    margin-bottom: 20px;
+  }
+  
+  .home2 .t3-header {
+    padding-bottom: 20px;
+  }
+  .home2 .t3-mainnav .container {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 478px) {
+  ul.top-info {
+    float: none;
+  }
+  ul.top-info li {
+    padding-left: 20px;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content {
+    bottom: 0;
+    width: 80%;
+  }
+  .slider2 .layout-slideshow .sprocket-features-content h2.slider-title {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .slider2 .layout-slideshow .sprocket-features-desc .btn-primary {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+  .ts-features .feature-tab {
+    top: 0;
+  }
+  .ts-features .feature-tab.module .gkTabsWrap.vertical > ol li {
+    padding: 0 10px !important;
+    line-height: 40px !important;
+    font-size: 10px !important;
+  }
+  .ts-facts-icon {
+    margin-left: 10%;
+  }
+  .who-we-box {
+    margin: 0 4px 20px;
+  }
+}
